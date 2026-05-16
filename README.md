@@ -1,2 +1,2 @@
 # JS-Learning-Journey-Updated
-Me learning JS UPDATED
+My learning JS UPDATED
