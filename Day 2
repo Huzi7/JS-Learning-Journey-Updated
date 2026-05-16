@@ -1,0 +1,39 @@
+Today I developed my understanding of how variables work in JavaScript. It is similar to Python and C#.
+I learnt about Statements, Comments, different variable keywords such as const, let and var. I also learnt the "typeof" keyword in JavaScript which outputs the date type.
+I then finally learnt how to take in input with the "prompt()" keyword.
+So to put my newly learnt JavaScript skills to the test, I made a simple Arithmatic calculator which takes in two numbers and does either + - / or *.
+
+
+Here is the Code:
+<script>
+const num1 = prompt("Enter number 1: ");
+let num1_up = Number(num1);
+
+const num2 = prompt("Enter number 2: ");
+let num2_up = Number(num2);
+
+const op = prompt("Pick one operator: + - / * ");
+
+if (op == "+") {
+	add_ans = num1_up + num2_up;
+	alert(add_ans)
+    }
+else if (op == "-") {
+	minus_ans = num1_up - num2_up;
+	alert(minus_ans)
+    }
+
+
+else if (op == "/") {
+	div_ans = num1_up / num2_up;
+	alert(div_ans)
+    }
+
+
+else if (op == "*") {
+	multiply_ans = num1_up * num2_up;
+	alert(multiply_ans)
+    }
+
+
+</script>
