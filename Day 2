@@ -37,3 +37,31 @@ else if (op == "*") {
 
 
 </script>
+
+
+2nd Half of day 2:
+I learnt how functions work so to test them out in a project, I made a simple JavaScript counter, in which if you press the + button it adds to the counter and updates it and same for the minus.
+
+here is the code:
+
+<p id="counter">0</p>
+<button onclick="add()">Add</button>
+<button onclick="minus()">Minus</button>
+
+<script>
+let count = 0;
+
+function update() {
+	document.getElementById("counter").innerHTML = count;
+    }
+
+function add() {
+	count++;
+    update();
+    }
+    
+function minus() {
+	count--;
+    update();
+}
+</script>
