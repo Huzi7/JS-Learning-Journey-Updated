@@ -1,0 +1,23 @@
+I started today by learning if, else if and else in more detail and I also learnt the Ternary Operator. I had a go at making a simple system which checks if you are an adult or a minor.
+
+<script>
+let age = 21;
+let text = (age < 18) ?  "Minor" : "Adult";
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+I then learnt about Switch Statements and all the important keywords that come with it like break, default, and case! I then made a simple script which showed the user what day it currently was using the Date().getDay() method, aswell as a switch statement.
+
+let day;
+let date = new Date().getDay();
+ 
+<script>
+switch (date) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+</script>
